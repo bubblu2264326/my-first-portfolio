@@ -1,0 +1,67 @@
+.main{
+  background-color: #F5F7F8;
+  height: 570px;
+  
+}
+.h1{
+  padding: 5%;
+  font-family: cursive;
+  font-size: xx-large;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+}
+.image{
+  background-color: #F5F7F8;
+  height: 130px;
+  margin: 0;
+  padding: 0;
+}
+.scroll-image {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  grid-column: span 2 ;
+}
+.intro{
+  margin-top: 15%;
+  padding-top: 3%;
+  padding-left: 25%;
+  background-color: #F5F7F8;
+  height: 150px;
+ align-items: center;
+}
+.skills{
+  margin-top: 2%;
+  background-color: #495E57;
+  height: 400px;
+}
+.skill-1,.skill-2,.skill-3{
+  font-size: x-large;
+  color: #F5F7F8;
+  
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  background-color: #F4CE14;
+  margin-top: 3%;
+  margin-left: 10%;
+  border-radius: 10%;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
